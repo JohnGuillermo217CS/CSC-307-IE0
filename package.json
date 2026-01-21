@@ -11,6 +11,9 @@
     "start": "cd packages/react-frontend && npm run dev"
   },
   "workspaces": [
-        "packages/*"
-  ]
+    "packages/*"
+  ],
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
 }
